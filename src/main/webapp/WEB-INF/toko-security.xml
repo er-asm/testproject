@@ -12,6 +12,7 @@
 		pre-post-annotations="enabled" />
 
 	<http pattern="/api/login" security="none" />
+	<http pattern="/api/test" security="none" />
 	<http pattern="/api/logout" security="none" />
 	<http pattern="/api/resetPassword" security="none" />
 	<http pattern="/api/forgetPassword" security="none" />
